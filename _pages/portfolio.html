@@ -1,14 +1,65 @@
 ---
 layout: archive
-title: "Portfolio"
+title: "Work"
 permalink: /portfolio/
 author_profile: true
 ---
 
 {% include base_path %}
 
+<p style="color: #666; font-size: 0.95em; margin-bottom: 2em;">
+  A living record of what I am building, teaching, and organizing.
+</p>
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+<!-- ── Teaching ───────────────────────────────────────────────── -->
+<h2>Teaching</h2>
+<p>Short videos where I work through ideas I am currently thinking about — ML concepts, paper breakdowns, and things I wish someone had explained more clearly.</p>
 
+<div style="max-width: 560px; margin: 0 auto 2.5em auto;">
+  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px;">
+    <iframe
+      src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+      frameborder="0" allowfullscreen
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    </iframe>
+  </div>
+</div>
+
+<!-- ── Projects ──────────────────────────────────────────────── -->
+<h2>Projects</h2>
+<p>Open-source work I am actively contributing to or maintaining.</p>
+
+<div style="margin-bottom: 1em;">
+  <!-- one block per project -->
+  <div style="display: flex; gap: 1em; align-items: flex-start; margin-bottom: 1.25em;">
+    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="20" style="margin-top: 4px;"/>
+    <div>
+      <a href="https://github.com/ChaoyuWang04/AdCampaignAgent-SFT" target="_blank"><strong>AdCampaignAgent-SFT</strong></a><br/>
+      <span style="font-size: 0.9em; color: #555;">Rule-based synthetic SFT dataset for mobile game UA agents with tool-calling and multi-turn reasoning.</span>
+    </div>
+  </div>
+</div>
+
+<div style="display: flex; gap: 1em; align-items: flex-start; margin-bottom: 1.25em;">
+  <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="20" style="margin-top: 4px;"/>
+  <div>
+    <a href="https://huggingface.co/datasets/SamWang0405/AdCampaignAgent-SFT" target="_blank"><strong>AdCampaignAgent-SFT</strong></a><br/>
+    <span style="font-size: 0.9em; color: #555;">Rule-based synthetic SFT dataset for mobile game UA agents with tool-calling and multi-turn reasoning.</span>
+  </div>
+</div>
+
+<!-- ── Events ───────────────────────────────────────────────── -->
+<h2>Events</h2>
+<p>Reading groups, paper discussions, and other things I am organizing or participating in.</p>
+
+<div style="display: flex; gap: 1.25em; align-items: flex-start; margin-bottom: 0.6em;">
+  <a href="/portfolio/source/LaunchpadS1.JPG" target="_blank" style="flex-shrink: 0;">
+    <img src="/portfolio/source/LaunchpadS1.JPG"
+      style="width: 140px; height: 90px; object-fit: cover; border-radius: 8px; display: block;"/>
+  </a>
+  <div>
+    <a href="https://mp.weixin.qq.com/s/Z8blxU7i6LuY2KxZQAIQlw?scene=1" target="_blank"><strong>Launchpad S1</strong></a>
+    <span style="font-size: 0.85em; color: #888; margin-left: 0.5em;">Feb 2026 · Shanghai</span><br/>
+    <span style="font-size: 0.9em; color: #555;">Host a product launch and go-to-market event bringing together 150+ founders and builders. Organized and hosted the first season in Minhang, Shanghai.</span>
+  </div>
+</div>
